@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.banner{
+    background: url(../img/women-work.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 580px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_conteudo{
+    text-align: center;
+}
+
+.banner_titulo{
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    text-shadow: 1px 1px 2px black; 
+}
+
+.banner_subtitulo{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
+.banner_link{
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: rgb(102,35,102);
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    border-style: ridge;
+    border-color: rgb(102,35,102);
+}
+
+.banner_link:hover{
+    background-color: violet;
+}
+
+.sobre{
+    padding: 50px;
+}
+
+.sobre_titulo{
+    font-family: 'Lato', sans-serif;
+    color: rgb(129, 123, 129);
+    font-size: 40px;
+}
+
+.sobre_conteudo{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 30px;
+}
+
+.sobre_descricao{
+    font-size: 20px;
+    width: 50%;
+}
+
+.descricao_p2{
+    margin-bottom: 40px;
+}
+
+.sobre_habilidades{    
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    margin: 5% 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.redes-sociais{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.redes-sociais_link{
+    margin: 20px;
+    background-color: rgb(102,35,102);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    width: 150px;
+}
+
+.redes-sociais_link:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.redes-sociais_link img{
+    padding-top: 15px;
+    width: auto;
+    height: 70px;
+}
+
+@media(min-width: 1200px){
+    .sobre_conteudo{
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 620px){
+    .sobre_conteudo{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .sobre_descricao{
+        width: 100%;
+    }
+
+    .sobre_habilidades{
+        width: 100%;
+    }
+}
+
+
