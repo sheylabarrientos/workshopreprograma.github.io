@@ -28,12 +28,10 @@ Links úteis pra vida:
 - https://flexboxfroggy.com/
 - https://en.bem.info/methodology/
 - https://fonts.google.com/specimen/Roboto?sidebar.open&selection.family=Roboto:wght@300
-- box model
-- displays: inline, block, inline-block, flex
-- freecodecamp.org
+- https://br.freepik.com/
 - cursoemvideo youtube https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ
-- java30
-- https://javascript30.com/
--https://br.freepik.com/
+- java30 https://javascript30.com/
+- box model | displays: inline, block, inline-block, flex
+- freecodecamp.org
 
 
