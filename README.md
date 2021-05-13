@@ -20,3 +20,20 @@ HTML Esqueleto
 CSS Aparência 
 JavaScrit Ações
 
+
+Links úteis pra vida: 
+
+- https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+- https://www.w3schools.com/
+- https://flexboxfroggy.com/
+- https://en.bem.info/methodology/
+- https://fonts.google.com/specimen/Roboto?sidebar.open&selection.family=Roboto:wght@300
+- box model
+- displays: inline, block, inline-block, flex
+- freecodecamp.org
+- cursoemvideo youtube https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ
+- java30
+- https://javascript30.com/
+-https://br.freepik.com/
+
+
